@@ -430,18 +430,15 @@ class App:
 
         if 3 in field['sum_0'].values or 3 in field.loc["sum_0"].values:
             is_ok = messagebox.showinfo(title="WIN",
-                                message="Player 0 win!")
+                                        message="Player 0 win!")
             if is_ok:
                 root.destroy()
-
 
         if 3 in field['sum_1'].values or 3 in field.loc["sum_1"].values:
             is_ok = messagebox.showinfo(title="WIN",
-                                message="Player 1 win!")
+                                        message="Player X win!")
             if is_ok:
                 root.destroy()
-
-
 
 
 if __name__ == "__main__":
