@@ -19,95 +19,95 @@ class App:
         root.geometry(alignstr)
         root.resizable(width=False, height=False)
 
-        self.button_510 = tk.Button(root)
-        self.button_510["bg"] = "#00babd"
+        button_x1 = tk.Button(root)
+        button_x1["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        self.button_510["font"] = ft
-        self.button_510["fg"] = "#ffffff"
-        self.button_510["justify"] = "center"
-        self.button_510["text"] = "X"
-        self.button_510.place(x=100, y=140, width=40, height=25)
-        self.button_510["command"] = self.GButton_510_command
+        button_x1["font"] = ft
+        button_x1["fg"] = "#ffffff"
+        button_x1["justify"] = "center"
+        button_x1["text"] = "X"
+        button_x1.place(x=100, y=140, width=40, height=25)
+        button_x1["command"] = self.button_x1_command
 
-        self.GButton_99 = tk.Button(root)
-        self.GButton_99["bg"] = "#00babd"
+        button_x2 = tk.Button(root)
+        button_x2["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        self.GButton_99["font"] = ft
-        self.GButton_99["fg"] = "#ffffff"
-        self.GButton_99["justify"] = "center"
-        self.GButton_99["text"] = "X"
-        self.GButton_99.place(x=200, y=140, width=40, height=25)
-        self.GButton_99["command"] = self.GButton_99_command
+        button_x2["font"] = ft
+        button_x2["fg"] = "#ffffff"
+        button_x2["justify"] = "center"
+        button_x2["text"] = "X"
+        button_x2.place(x=200, y=140, width=40, height=25)
+        button_x2["command"] = self.button_x2_command
 
-        self.GButton_45 = tk.Button(root)
-        self.GButton_45["bg"] = "#00babd"
+        button_x3 = tk.Button(root)
+        button_x3["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        self.GButton_45["font"] = ft
-        self.GButton_45["fg"] = "#ffffff"
-        self.GButton_45["justify"] = "center"
-        self.GButton_45["text"] = "X"
-        self.GButton_45.place(x=300, y=140, width=40, height=25)
-        self.GButton_45["command"] = self.GButton_45_command
+        button_x3["font"] = ft
+        button_x3["fg"] = "#ffffff"
+        button_x3["justify"] = "center"
+        button_x3["text"] = "X"
+        button_x3.place(x=300, y=140, width=40, height=25)
+        button_x3["command"] = self.button_x3_command
 
-        GButton_881 = tk.Button(root)
-        GButton_881["bg"] = "#00babd"
+        button_x4 = tk.Button(root)
+        button_x4["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_881["font"] = ft
-        GButton_881["fg"] = "#ffffff"
-        GButton_881["justify"] = "center"
-        GButton_881["text"] = "X"
-        GButton_881.place(x=100, y=270, width=40, height=25)
-        GButton_881["command"] = self.GButton_881_command
+        button_x4["font"] = ft
+        button_x4["fg"] = "#ffffff"
+        button_x4["justify"] = "center"
+        button_x4["text"] = "X"
+        button_x4.place(x=100, y=270, width=40, height=25)
+        button_x4["command"] = self.button_x4_command
 
-        GButton_255 = tk.Button(root)
-        GButton_255["bg"] = "#00babd"
+        button_x5 = tk.Button(root)
+        button_x5["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_255["font"] = ft
-        GButton_255["fg"] = "#ffffff"
-        GButton_255["justify"] = "center"
-        GButton_255["text"] = "X"
-        GButton_255.place(x=200, y=270, width=40, height=25)
-        GButton_255["command"] = self.GButton_255_command
+        button_x5["font"] = ft
+        button_x5["fg"] = "#ffffff"
+        button_x5["justify"] = "center"
+        button_x5["text"] = "X"
+        button_x5.place(x=200, y=270, width=40, height=25)
+        button_x5["command"] = self.button_x5_command
 
-        GButton_578 = tk.Button(root)
-        GButton_578["bg"] = "#00babd"
+        button_x6 = tk.Button(root)
+        button_x6["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_578["font"] = ft
-        GButton_578["fg"] = "#ffffff"
-        GButton_578["justify"] = "center"
-        GButton_578["text"] = "X"
-        GButton_578.place(x=300, y=270, width=40, height=25)
-        GButton_578["command"] = self.GButton_578_command
+        button_x6["font"] = ft
+        button_x6["fg"] = "#ffffff"
+        button_x6["justify"] = "center"
+        button_x6["text"] = "X"
+        button_x6.place(x=300, y=270, width=40, height=25)
+        button_x6["command"] = self.button_x6_command
 
-        GButton_933 = tk.Button(root)
-        GButton_933["bg"] = "#00babd"
+        button_x7 = tk.Button(root)
+        button_x7["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_933["font"] = ft
-        GButton_933["fg"] = "#ffffff"
-        GButton_933["justify"] = "center"
-        GButton_933["text"] = "X"
-        GButton_933.place(x=100, y=400, width=40, height=25)
-        GButton_933["command"] = self.GButton_933_command
+        button_x7["font"] = ft
+        button_x7["fg"] = "#ffffff"
+        button_x7["justify"] = "center"
+        button_x7["text"] = "X"
+        button_x7.place(x=100, y=400, width=40, height=25)
+        button_x7["command"] = self.button_x7_command
 
-        GButton_355 = tk.Button(root)
-        GButton_355["bg"] = "#00babd"
+        button_x8 = tk.Button(root)
+        button_x8["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_355["font"] = ft
-        GButton_355["fg"] = "#ffffff"
-        GButton_355["justify"] = "center"
-        GButton_355["text"] = "X"
-        GButton_355.place(x=200, y=400, width=40, height=25)
-        GButton_355["command"] = self.GButton_355_command
+        button_x8["font"] = ft
+        button_x8["fg"] = "#ffffff"
+        button_x8["justify"] = "center"
+        button_x8["text"] = "X"
+        button_x8.place(x=200, y=400, width=40, height=25)
+        button_x8["command"] = self.button_x8_command
 
-        GButton_860 = tk.Button(root)
-        GButton_860["bg"] = "#00babd"
+        button_x9 = tk.Button(root)
+        button_x9["bg"] = "#00babd"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_860["font"] = ft
-        GButton_860["fg"] = "#ffffff"
-        GButton_860["justify"] = "center"
-        GButton_860["text"] = "X"
-        GButton_860.place(x=300, y=400, width=40, height=25)
-        GButton_860["command"] = self.GButton_860_command
+        button_x9["font"] = ft
+        button_x9["fg"] = "#ffffff"
+        button_x9["justify"] = "center"
+        button_x9["text"] = "X"
+        button_x9.place(x=300, y=400, width=40, height=25)
+        button_x9["command"] = self.button_x9_command
 
         self.g_message_00 = tk.Message(root)
         self.g_message_00["bg"] = "#ffffff"
@@ -190,95 +190,95 @@ class App:
         self.g_message_22["text"] = ""
         self.g_message_22.place(x=300, y=300, width=90, height=90)
 
-        GButton_477 = tk.Button(root)
-        GButton_477["bg"] = "#ff8c00"
+        button_o1 = tk.Button(root)
+        button_o1["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_477["font"] = ft
-        GButton_477["fg"] = "#000000"
-        GButton_477["justify"] = "center"
-        GButton_477["text"] = "O"
-        GButton_477.place(x=150, y=140, width=40, height=25)
-        GButton_477["command"] = self.GButton_477_command
+        button_o1["font"] = ft
+        button_o1["fg"] = "#000000"
+        button_o1["justify"] = "center"
+        button_o1["text"] = "O"
+        button_o1.place(x=150, y=140, width=40, height=25)
+        button_o1["command"] = self.button_o1_command
 
-        GButton_423 = tk.Button(root)
-        GButton_423["bg"] = "#ff8c00"
+        button_o2 = tk.Button(root)
+        button_o2["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_423["font"] = ft
-        GButton_423["fg"] = "#000000"
-        GButton_423["justify"] = "center"
-        GButton_423["text"] = "O"
-        GButton_423.place(x=250, y=140, width=40, height=25)
-        GButton_423["command"] = self.GButton_423_command
+        button_o2["font"] = ft
+        button_o2["fg"] = "#000000"
+        button_o2["justify"] = "center"
+        button_o2["text"] = "O"
+        button_o2.place(x=250, y=140, width=40, height=25)
+        button_o2["command"] = self.button_o2_command
 
-        GButton_973 = tk.Button(root)
-        GButton_973["bg"] = "#ff8c00"
+        button_o3 = tk.Button(root)
+        button_o3["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_973["font"] = ft
-        GButton_973["fg"] = "#000000"
-        GButton_973["justify"] = "center"
-        GButton_973["text"] = "O"
-        GButton_973.place(x=250, y=270, width=40, height=25)
-        GButton_973["command"] = self.GButton_973_command
+        button_o3["font"] = ft
+        button_o3["fg"] = "#000000"
+        button_o3["justify"] = "center"
+        button_o3["text"] = "O"
+        button_o3.place(x=250, y=270, width=40, height=25)
+        button_o3["command"] = self.button_o3_command
 
-        GButton_830 = tk.Button(root)
-        GButton_830["bg"] = "#ff8c00"
+        button_o4 = tk.Button(root)
+        button_o4["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_830["font"] = ft
-        GButton_830["fg"] = "#000000"
-        GButton_830["justify"] = "center"
-        GButton_830["text"] = "O"
-        GButton_830.place(x=150, y=270, width=40, height=25)
-        GButton_830["command"] = self.GButton_830_command
+        button_o4["font"] = ft
+        button_o4["fg"] = "#000000"
+        button_o4["justify"] = "center"
+        button_o4["text"] = "O"
+        button_o4.place(x=150, y=270, width=40, height=25)
+        button_o4["command"] = self.button_o4_command
 
-        GButton_615 = tk.Button(root)
-        GButton_615["bg"] = "#ff8c00"
+        button_o5 = tk.Button(root)
+        button_o5["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_615["font"] = ft
-        GButton_615["fg"] = "#000000"
-        GButton_615["justify"] = "center"
-        GButton_615["text"] = "O"
-        GButton_615.place(x=350, y=140, width=40, height=25)
-        GButton_615["command"] = self.GButton_615_command
+        button_o5["font"] = ft
+        button_o5["fg"] = "#000000"
+        button_o5["justify"] = "center"
+        button_o5["text"] = "O"
+        button_o5.place(x=350, y=140, width=40, height=25)
+        button_o5["command"] = self.button_o5_command
 
-        GButton_360 = tk.Button(root)
-        GButton_360["bg"] = "#ff8c00"
+        button_o6 = tk.Button(root)
+        button_o6["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_360["font"] = ft
-        GButton_360["fg"] = "#000000"
-        GButton_360["justify"] = "center"
-        GButton_360["text"] = "O"
-        GButton_360.place(x=350, y=270, width=40, height=25)
-        GButton_360["command"] = self.GButton_360_command
+        button_o6["font"] = ft
+        button_o6["fg"] = "#000000"
+        button_o6["justify"] = "center"
+        button_o6["text"] = "O"
+        button_o6.place(x=350, y=270, width=40, height=25)
+        button_o6["command"] = self.button_o6_command
 
-        GButton_839 = tk.Button(root)
-        GButton_839["bg"] = "#ff8c00"
+        button_o7 = tk.Button(root)
+        button_o7["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_839["font"] = ft
-        GButton_839["fg"] = "#000000"
-        GButton_839["justify"] = "center"
-        GButton_839["text"] = "O"
-        GButton_839.place(x=150, y=400, width=40, height=25)
-        GButton_839["command"] = self.GButton_839_command
+        button_o7["font"] = ft
+        button_o7["fg"] = "#000000"
+        button_o7["justify"] = "center"
+        button_o7["text"] = "O"
+        button_o7.place(x=150, y=400, width=40, height=25)
+        button_o7["command"] = self.button_o7_command
 
-        GButton_769 = tk.Button(root)
-        GButton_769["bg"] = "#ff8c00"
+        button_o8 = tk.Button(root)
+        button_o8["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_769["font"] = ft
-        GButton_769["fg"] = "#000000"
-        GButton_769["justify"] = "center"
-        GButton_769["text"] = "O"
-        GButton_769.place(x=250, y=400, width=40, height=25)
-        GButton_769["command"] = self.GButton_769_command
+        button_o8["font"] = ft
+        button_o8["fg"] = "#000000"
+        button_o8["justify"] = "center"
+        button_o8["text"] = "O"
+        button_o8.place(x=250, y=400, width=40, height=25)
+        button_o8["command"] = self.button_o8_command
 
-        GButton_134 = tk.Button(root)
-        GButton_134["bg"] = "#ff8c00"
+        button_o9 = tk.Button(root)
+        button_o9["bg"] = "#ff8c00"
         ft = tkFont.Font(family='Times', size=10)
-        GButton_134["font"] = ft
-        GButton_134["fg"] = "#000000"
-        GButton_134["justify"] = "center"
-        GButton_134["text"] = "O"
-        GButton_134.place(x=350, y=400, width=40, height=25)
-        GButton_134["command"] = self.GButton_134_command
+        button_o9["font"] = ft
+        button_o9["fg"] = "#000000"
+        button_o9["justify"] = "center"
+        button_o9["text"] = "O"
+        button_o9.place(x=350, y=400, width=40, height=25)
+        button_o9["command"] = self.button_o9_command
 
         GLabel_675 = tk.Label(root)
         ft = tkFont.Font(family='Times', size=18)
@@ -289,126 +289,126 @@ class App:
         GLabel_675["relief"] = "ridge"
         GLabel_675.place(x=130, y=10, width=223, height=30)
 
-    def GButton_510_command(self):
+    def button_x1_command(self):
         self.g_message_00["bg"] = "#00babd"
         self.g_message_00["fg"] = "#ffffff"
         self.g_message_00["text"] = "❌"
         field.iloc[0, 0] = 1
         self.check_sum()
 
-    def GButton_99_command(self):
+    def button_x2_command(self):
         self.g_message_01["bg"] = "#00babd"
         self.g_message_01["fg"] = "#ffffff"
         self.g_message_01["text"] = "❌"
         field.iloc[0, 1] = 1
         self.check_sum()
 
-    def GButton_45_command(self):
+    def button_x3_command(self):
         self.g_message_02["bg"] = "#00babd"
         self.g_message_02["fg"] = "#ffffff"
         self.g_message_02["text"] = "❌"
         field.iloc[0, 2] = 1
         self.check_sum()
 
-    def GButton_881_command(self):
+    def button_x4_command(self):
         self.g_message_10["bg"] = "#00babd"
         self.g_message_10["fg"] = "#ffffff"
         self.g_message_10["text"] = "❌"
         field.iloc[1, 0] = 1
         self.check_sum()
 
-    def GButton_255_command(self):
+    def button_x5_command(self):
         self.g_message_11["bg"] = "#00babd"
         self.g_message_11["fg"] = "#ffffff"
         self.g_message_11["text"] = "❌"
         field.iloc[1, 1] = 1
         self.check_sum()
 
-    def GButton_578_command(self):
+    def button_x6_command(self):
         self.g_message_12["bg"] = "#00babd"
         self.g_message_12["fg"] = "#ffffff"
         self.g_message_12["text"] = "❌"
         field.iloc[1, 2] = 1
         self.check_sum()
 
-    def GButton_933_command(self):
+    def button_x7_command(self):
         self.g_message_20["bg"] = "#00babd"
         self.g_message_20["fg"] = "#ffffff"
         self.g_message_20["text"] = "❌"
         field.iloc[2, 0] = 1
         self.check_sum()
 
-    def GButton_355_command(self):
+    def button_x8_command(self):
         self.g_message_21["bg"] = "#00babd"
         self.g_message_21["fg"] = "#ffffff"
         self.g_message_21["text"] = "❌"
         field.iloc[2, 1] = 1
         self.check_sum()
 
-    def GButton_860_command(self):
+    def button_x9_command(self):
         self.g_message_22["bg"] = "#00babd"
         self.g_message_22["fg"] = "#ffffff"
         self.g_message_22["text"] = "❌"
         field.iloc[2, 2] = 1
         self.check_sum()
 
-    def GButton_477_command(self):
+    def button_o1_command(self):
         self.g_message_00["bg"] = "#ff8c00"
         self.g_message_00["fg"] = "#ffffff"
         self.g_message_00["text"] = "⭕"
         field.iloc[0, 0] = 0
         self.check_sum()
 
-    def GButton_423_command(self):
+    def button_o2_command(self):
         self.g_message_01["bg"] = "#ff8c00"
         self.g_message_01["fg"] = "#ffffff"
         self.g_message_01["text"] = "⭕"
         field.iloc[0, 1] = 0
         self.check_sum()
 
-    def GButton_973_command(self):
+    def button_o3_command(self):
         self.g_message_11["bg"] = "#ff8c00"
         self.g_message_11["fg"] = "#ffffff"
         self.g_message_11["text"] = "⭕"
         field.iloc[1, 1] = 0
         self.check_sum()
 
-    def GButton_830_command(self):
+    def button_o4_command(self):
         self.g_message_10["bg"] = "#ff8c00"
         self.g_message_10["fg"] = "#ffffff"
         self.g_message_10["text"] = "⭕"
         field.iloc[1, 0] = 0
         self.check_sum()
 
-    def GButton_615_command(self):
+    def button_o5_command(self):
         self.g_message_02["bg"] = "#ff8c00"
         self.g_message_02["fg"] = "#ffffff"
         self.g_message_02["text"] = "⭕"
         field.iloc[0, 2] = 0
         self.check_sum()
 
-    def GButton_360_command(self):
+    def button_o6_command(self):
         self.g_message_12["bg"] = "#ff8c00"
         self.g_message_12["fg"] = "#ffffff"
         self.g_message_12["text"] = "⭕"
         field.iloc[1, 2] = 0
         self.check_sum()
 
-    def GButton_839_command(self):
+    def button_o7_command(self):
         self.g_message_20["bg"] = "#ff8c00"
         self.g_message_20["fg"] = "#ffffff"
         self.g_message_20["text"] = "⭕"
         field.iloc[2, 0] = 0
         self.check_sum()
 
-    def GButton_769_command(self):
+    def button_o8_command(self):
         self.g_message_21["bg"] = "#ff8c00"
         self.g_message_21["fg"] = "#ffffff"
         self.g_message_21["text"] = "⭕"
         field.iloc[2, 1] = 0
         self.check_sum()
 
-    def GButton_134_command(self):
+    def button_o9_command(self):
         self.g_message_22["bg"] = "#ff8c00"
         self.g_message_22["fg"] = "#ffffff"
         self.g_message_22["text"] = "⭕"
@@ -440,6 +440,11 @@ class App:
             if is_ok:
                 root.destroy()
 
+        if None not in field.iloc[0:3, 0:3].values:
+            is_ok = messagebox.showinfo(title="Tie",
+                                        message="Nobody win")
+            if is_ok:
+                root.destroy()
 
 if __name__ == "__main__":
     root = tk.Tk()
