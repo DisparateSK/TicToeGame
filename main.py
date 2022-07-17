@@ -441,7 +441,7 @@ class App:
                 root.destroy()
 
         if None not in field.iloc[0:3, 0:3].values:
-            is_ok = messagebox.showinfo(title="Tie",
+            is_ok = messagebox.showinfo(title="Draw",
                                         message="Nobody win")
             if is_ok:
                 root.destroy()
